@@ -1,0 +1,7 @@
+El login permite identificar a un usuario antes de darle acceso a funciones privadas de la aplicación.
+
+Algunas rutas deben estar protegidas porque contienen información privada, acciones administrativas o datos personales que no deben ser accesibles por cualquier visitante.
+
+La autenticación ayuda a relacionar acciones con usuarios para trazabilidad y responsabilidad.
+
+No se deben exponer públicamente contraseñas, tokens, claves de API, documentos de identidad, números de teléfono ni direcciones.

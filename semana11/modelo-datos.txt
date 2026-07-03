@@ -1,0 +1,24 @@
+Entidad: Causa
+
+Campos principales:
+- id (uuid)
+- titulo (string)
+- descripcion (text)
+- fecha_creacion (date)
+- autor_id (uuid)
+- estado (string: abierta|cerrada)
+
+Propósito:
+Guardar las causas comunitarias publicadas en la plataforma para que la comunidad pueda conocerlas y hacer seguimiento.
+
+Entidad: Apoyo
+
+Campos principales:
+- id (uuid)
+- causa_id (uuid)  # referencia a Causa
+- usuario_id (uuid)
+- comentario (text, opcional)
+- fecha (date)
+
+Propósito:
+Registrar los apoyos que reciben las causas (votos, comentarios o asistencia) para medir participación y trazabilidad.

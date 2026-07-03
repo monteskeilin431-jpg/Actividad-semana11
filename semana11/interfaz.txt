@@ -1,0 +1,9 @@
+La interfaz tendría una sección para crear una nueva causa comunitaria con campos de título, descripción y fecha.
+
+Habrá una vista en lista de las causas disponibles con tarjeta o fila por causa, mostrando título, descripción corta y contador de apoyos.
+
+Cada causa incluirá un botón "Apoyar" que incremente el contador y, opcionalmente, permita añadir un comentario breve.
+
+También se mostrará un contador visible de apoyos por causa y filtros básicos (más recientes, más apoyadas).
+
+La interfaz debe ser simple, accesible y no mostrar información privada de los usuarios públicamente.
